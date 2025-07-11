@@ -34,27 +34,10 @@
           >LOGO</a
         ></span
       >
-      <button
-        style="
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 48px;
-          padding: 12px 36px;
-          border: none;
-          border-radius: 10px;
-          cursor: pointer;
-        "
-        class="primary-color-bg"
-      >
-        <span
-          style="color: white; font-size: 16px; text-align: center"
-          class="raleway-bold"
-          >Sign Up</span
-        >
-      </button>
+      <button class="raleway-bold">Sign Up</button>
     </header>
     <main>
+      <!-- Hero section -->
       <section
         style="
           background: linear-gradient(
@@ -62,7 +45,7 @@
               rgba(78, 71, 255, 0.01) 0%,
               rgba(78, 71, 255, 0.01) 100%
             ),
-            url('/Assets/Hero-bg.png') lightgray 50% / cover no-repeat;
+            url('./Assets/Hero-bg.png') lightgray 50% / cover no-repeat;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -82,18 +65,59 @@
           "
         >
           <div
-            style="align-self: stretch; text-align: center; font-size: 65px"
+            style="
+              align-self: stretch;
+              text-align: center;
+              font-size: 65px;
+              color: #252432;
+            "
             class="raleway-bold"
           >
             Cool Dark UI Template for Webflow Agencies!
           </div>
-          <button style="display: flex; justify-content: center; align-items: center; height: 48px; padding: 12px 36px; border: none; border-radius: 10px;" class="primary-color-bg"><span style="color: white; text-align: center; font-size: 16px;" class="raleway-bold">Stay Focused</span></button>
+          <button class="raleway-bold">Stay Focused</button>
         </div>
       </section>
-      <section>
-        <h2>See It in Action</h2>
-        <p>Explore the live preview and imagine your brand in this bold new look.</p>
-        <button>Launch Live Preview</button>
+
+      <!-- Action section -->
+      <section
+        style="
+          display: flex;
+          justify-content: space-between;
+          width: 80%;
+          padding: 116px 0px;
+          margin: 0 auto;
+        "
+      >
+        <div>
+          <h1 style="font-size: 42px; align-self: stretch" class="raleway-bold">
+            See It in Action
+          </h1>
+          <p
+            style="
+              color: rgba(37, 36, 50, 0.5);
+              font-size: 24px;
+              align-self: stretch;
+            "
+            class="raleway-regular"
+          >
+            Explore the live preview and imagine your brand in this bold new
+            look.
+          </p>
+          <button class="raleway-bold">Launch Live Preview</button>
+        </div>
+        <img
+          src="./Assets/wc-mini.png"
+          alt="Webflow Conf 2022"
+          width="403px"
+          height="328px"
+          style="
+            flex-shrink: 0;
+            border-radius: 48px;
+            background: url('./Assets/wc-mini.png') lightgray -23.639px -26.707px /
+              187.12% 172.283% no-repeat;
+          "
+        />
       </section>
     </main>
   </body>
